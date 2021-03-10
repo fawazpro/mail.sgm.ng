@@ -1,0 +1,10 @@
+POST http://localhost/mail.sgm.ng/mail HTTP/1.1
+content-type: application/multipart/form-data
+
+{
+    "app":  "2f8a6bf31f3b",
+    "message":  "I am using Dojah API to send you this message",
+    "email":  "2348108097322",
+    "fname":  "KhalifahSq",
+    "url":  "http://google.com",
+}
